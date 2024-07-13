@@ -35,7 +35,7 @@ resource "google_compute_global_address" "website" {
 # Get the managed DNS zone
 data "google_dns_managed_zone" "gcp_coffeetime_dev" {
   provider = google
-  name     = "rishab-example"
+  name     = "radina-example"
 }
 
 # Add the IP to the DNS
